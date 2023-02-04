@@ -5,19 +5,23 @@ Refer to moja.global's GCBM training video series before proceeding to run the m
 Description of contents
 ---
 input_database\
-    The GCBM input database for the project which contains all of the non-spatial model parameters, plus the files needed to generate the input database using the Recliner2GCBM tool.
+    The GCBM input database for the project which contains all of the non-spatial model parameters, plus the files needed to generate
+    the input database using the Recliner2GCBM tool.
     
     1. Modify the yield curves and create Growth_Curves.csv file using the ForestType, Distrubance and Climate classifiers
     2. Run the run_recliner2hcbm_gui tool to get a configuration
-    2.1. Configuration: Project Type: Spatially explicit; Module Configuration: CBM Classic; AIDB Path: Path to ArchiveIndex_Beta_Install in input_database folder; Output type: SQLite; Path: path to gcbm_inpt database in input_database folder
+    2.1. Configuration: Project Type: Spatially explicit; Module Configuration: CBM Classic; AIDB Path: Path to
+    ArchiveIndex_Beta_Install in input_database folder; Output type: SQLite; Path: path to gcbm_inpt database in input_database folder
     2.2. Added ForestType, Disturbance and CLimate classifiers on the Growth_Curves.csv file
-    2.3. Selected the Growth_Curves.csv file, set the columns of the three classifiers; Growth Curve Interval set to 1; Increments in columns 4 to 154; Species in column 3
+    2.3. Selected the Growth_Curves.csv file, set the columns of the three classifiers; Growth Curve Interval set to 1; Increments in
+    columns 4 to 154; Species in column 3
     2.4. No Transition rules configured for now
     2.5. No changes in disturbance categories (all disrturbances set as anthropogenic
     2.6. GCBM input database loaded and configuration saved in recliner2gcbm_config.json file
 
 layers\
-    The spatial layers for the project, both the originals and the output of the tiler script which processes the original layers into the format used by GCBM.
+    The spatial layers for the project, both the originals and the output of the tiler script which processes the original layers into
+    the format used by GCBM.
     
     3. Include a dummy inventory layer (inventory.shp)
      
@@ -38,7 +42,8 @@ tools\
 
 To run the project (the short version):
 
-Set up your Python environment and make any necessary modifications to run_all.bat as described in documentation\GCBM_Installation_Guide_2019_11_14.docx.
+Set up your Python environment and make any necessary modifications to run_all.bat as described in
+    documentation\GCBM_Installation_Guide_2019_11_14.docx.
     5. Change the run_all simulations years (start, end)
 
 ---
@@ -57,7 +62,8 @@ To run the project (the detailed version):
             From the command prompt in tools\python_3_installer, type:
             install_python
             
-    If you do not have MS Access installed, you will need to install a driver in order to connect to MS Access databases. The driver can be found in:
+    If you do not have MS Access installed, you will need to install a driver in order to connect to MS Access databases. The driver can
+    be found in:
     tools\python_3_installer\x64\AccessDatabaseEngine_x64.exe
     
     Install the Visual C++ Redistributable packages required to run the GCBM and related tools:
@@ -70,6 +76,7 @@ To run the project (the detailed version):
     Recliner2GCBM tool:
         tools\VC_redist\NDP472-KB4054530-x86-x64-AllOS-ENU.exe
             
-    Edit run_all.bat and set the GCBM_PYTHON path and PLATFORM variables in the USER CONFIGURATION section near the top to the correct values for your system.
+    Edit run_all.bat and set the GCBM_PYTHON path and PLATFORM variables in the USER CONFIGURATION section near the top to the correct
+    values for your system.
 
     Run run_all.bat
