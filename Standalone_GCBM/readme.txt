@@ -23,7 +23,7 @@ layers\
     The spatial layers for the project, both the originals and the output of the tiler script which processes the original layers into
     the format used by GCBM.
     
-    3. Include a dummy inventory layer (inventory.shp)
+    3. Include a dummy inventory layer (inventory.shp) and a temperature layer 
      
 processed_output\
     Contains the fully-processed (analysis ready) output of the simulation:
