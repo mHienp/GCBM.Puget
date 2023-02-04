@@ -32,6 +32,7 @@ processed_output\
     
 tools\
     Tiler - Converts raster and vector layers into the format required by GCBM.
+    
     4. Configure the tiler python code (toold/tyler/tyler.py):
     4.1. Resolution to 0.001 degrees (aprox 100 m)
     4.2. Change the classifier names in the inventory layer
@@ -44,6 +45,7 @@ To run the project (the short version):
 
 Set up your Python environment and make any necessary modifications to run_all.bat as described in
     documentation\GCBM_Installation_Guide_2019_11_14.docx.
+    
     5. Change the run_all simulations years (start, end)
 
 ---
