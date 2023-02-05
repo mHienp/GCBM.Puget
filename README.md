@@ -1,5 +1,5 @@
 # Puget lowland forests
-Part of Emerald Edge. For full area repo containing research/preprocessing files go to [GCBM.EmeraldEdge.Data](https://github.com/mHienp/GCBM.EmeraldEdge.Data)
+1 of 9 sub-areas of Emerald Edge. Full area research/preprocessing files can be found in the [GCBM.EmeraldEdge.Data](https://github.com/mHienp/GCBM.EmeraldEdge.Data) repo
 <details>
 
 ![alt text](https://github.com/mHienp/GCBM.EmeraldEdge.Data/blob/main/img/Eco%20Names.png)
