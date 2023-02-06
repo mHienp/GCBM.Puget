@@ -14,7 +14,7 @@ A small part of Emerald Edge. Full area research/preprocessing files can be foun
 * Growth curve: western redcedar, merchantable volume against age converted to biomass, using Boudewyn's equation, parameters a = 0.4625, b = 1.00638
 * There was no disturbance layer for this simulation
 
-![alt text](https://github.com/mHienp/GCBM.Puget/blob/main/Postprocessing/Rh.png)![alt text](https://github.com/mHienp/GCBM.Puget/blob/main/Postprocessing/NP.png)
+![alt text](https://github.com/mHienp/GCBM.Puget/blob/main/Postprocessing/NBP.png)!
 
 ### Sensitivity Analysis
 
