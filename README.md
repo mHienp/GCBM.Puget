@@ -11,7 +11,7 @@ A small part of Emerald Edge. Full area research/preprocessing files can be foun
 
 ### Net Productivity
 * 150-year simulation 1900-2050
-* Growth curve: western redcedar, merchantable volume against age converted to biomass, using Boudewyn's equation, parameters a = 0.4625, b = 1.00638
+* [Growth curve](https://github.com/mHienp/GCBM.EmeraldEdge.Data/blob/main/Tabular_Data/Chapman-Richards%20Growth%20Curves.ipynb): western redcedar, merchantable volume against age converted to biomass, using Boudewyn's equation, parameters a = 0.4625, b = 1.00638
 * There was no disturbance layer for this simulation
 
 ![alt text](https://github.com/mHienp/GCBM.Puget/blob/main/Postprocessing/NBP.png)
